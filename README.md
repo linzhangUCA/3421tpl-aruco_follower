@@ -9,18 +9,17 @@ Complete `follow_aruco.py`.
 3. (30%) Use appropriate navigation strategies (e.g. move "forward left" if marker shown on left half of the video frame; stop if robot cannot detect any marker).  
 4. (20%) Upload a video to show the whole navigation process.
 
-#### Hints
+
+## Hints
 - You may need [picamera2](https://github.com/raspberrypi/picamera2) library to capture video.
-- An inspiring [example](https://github.com/raspberrypi/picamera2/blob/main/examples/opencv_face_detect.py).
-- You can use any object to hold the ArUco marker.
-- You may need to practice a little bit to better cooperate with your robot.
-- A video streaming server can be useful for debugging.
-- Remote control can be another useful debugging tool.
+- An inspiring [example](https://github.com/raspberrypi/picamera2/blob/main/examples/opencv_face_detect.py), but face detection.
+- ArUco marker detection [example](https://pyimagesearch.com/2020/12/21/detecting-aruco-markers-with-opencv-and-python/)
+- A [video streaming server](https://github.com/raspberrypi/picamera2/blob/main/examples/mjpeg_server.py) can be useful for debugging.
 - You may want to tweek the motor speed to get a more comfortable driving experience. 
 
 ## Helpful Resources
 - Getting started with RPi camera [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 - Waveshare Motor Driver Board [Wiki Page](https://www.waveshare.com/wiki/RPi_Motor_Driver_Board).
-- [gpiozero example](https://gpiozero.readthedocs.io/en/stable/recipes.html#robot) of driving a robot.
-- [API](https://gpiozero.readthedocs.io/en/stable/api_boards.html#robot) for Robot class using gpiozero. 
+- [gpiozero API](https://gpiozero.readthedocs.io/en/stable/api_boards.html#robot) for Robot class using gpiozero. 
 - [picamera2 manual](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
+- [OpenCV-Python Tutorials](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
