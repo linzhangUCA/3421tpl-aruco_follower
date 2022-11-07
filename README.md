@@ -20,6 +20,6 @@ Complete `follow_aruco.py`.
 ## Helpful Resources
 - Getting started with RPi camera [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 - Waveshare Motor Driver Board [Wiki Page](https://www.waveshare.com/wiki/RPi_Motor_Driver_Board).
-- [gpiozero API](https://gpiozero.readthedocs.io/en/stable/api_boards.html#robot) for Robot class using gpiozero. 
+- [gpiozero API](https://gpiozero.readthedocs.io/en/stable/). 
 - [picamera2 manual](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
 - [OpenCV-Python Tutorials](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
