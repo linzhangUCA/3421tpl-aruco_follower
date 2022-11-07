@@ -9,13 +9,13 @@ Complete `follow_aruco.py`.
 3. (30%) Use appropriate navigation strategies (e.g. move "forward left" if marker shown on left half of the video frame; stop if robot cannot detect any marker).  
 4. (20%) Upload a video to show the whole navigation process.
 
-
-## Hints
+#### Hints
 - You may need [picamera2](https://github.com/raspberrypi/picamera2) library to capture video.
 - An inspiring [example](https://github.com/raspberrypi/picamera2/blob/main/examples/opencv_face_detect.py), but face detection.
 - ArUco marker detection [example](https://pyimagesearch.com/2020/12/21/detecting-aruco-markers-with-opencv-and-python/)
 - A [video streaming server](https://github.com/raspberrypi/picamera2/blob/main/examples/mjpeg_server.py) can be useful for debugging.
 - You may want to tweek the motor speed to get a more comfortable driving experience. 
+
 
 ## Helpful Resources
 - Getting started with RPi camera [tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
